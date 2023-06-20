@@ -5,18 +5,19 @@ body{
 
 .container{
     display:flex;
-    flex-direction: row;
     justify-content: center;
     align-self: center;
-    margin-top:200px;
-    margin-left: 500px;
+    margin-top:35vh;
+    margin-left: 35vw;
     border: 1px solid black;
-    height: 50%;
+    min-height: 50%;
     width: 30%;
+    min-width: 250px;
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("./assests/background_image.avif");
     background-size:contain;
     box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
 }
+
 .stopwatch{
     display: flex;
     flex-direction: column;
@@ -24,4 +25,17 @@ body{
     align-items: center;
     width: 400px;
     height: 200px;
+}
+
+.timer{
+    color:white;
+    font-family: 'Foldit', cursive;
+    font-size: 2.5rem;
+}
+.buttons{
+    transform: scale(1.2);
+}
+
+button{
+    cursor:pointer;
 }
