@@ -1,0 +1,27 @@
+body{
+    background-color:lightgrey;
+    color: antiquewhite;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    margin-top:200px;
+    margin-left: 500px;
+    border: 1px solid black;
+    height: 50%;
+    width: 30%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("./assests/background_image.avif");
+    background-size:contain;
+    box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+}
+.stopwatch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+}
